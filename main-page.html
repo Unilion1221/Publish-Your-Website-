@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">       
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lion's Game Shop</title>
+    <link rel="stylesheet" href="./website-css.css">
+    <script src="https://kit.fontawesome.com/eb46dcb681.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <div class="header-main-buttons-left">
+            <div class="logo">
+                <img src="./images/game-store-logo.png" alt="">
+            </div>
+            <a href="./main-page.html" class="header-links">
+                <div>
+                    STORE
+                </div>
+            </a>
+            <a href="" class="header-links">
+                <div>
+                    FAQ
+                </div>
+            </a>
+            <a href="" class="header-links">
+                <div>
+                    HELP
+                </div>
+            </a>
+        </div>
+
+        <div class="header-main-buttons-right">
+            <button class="header-button">
+                Theme Switch
+            </button>
+
+            <div class="lang-menu">
+                <div class="selected-lang">
+                    English
+                </div>
+                <ul>
+                    <li>
+                        <a href="" class="Ger">German</a>
+                    </li>
+                    <li>
+                        <a href="" class="Fr">French</a>
+                    </li>
+                    <li>
+                        <a href="" class="Chin">Chinese</a>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="header-button-login">
+                Log-in
+            </button>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Page Content Start -->
+    <div class="main-page-content-outer">
+        <div class="main-page-content-inner">
+
+            <!-- Searchbar, Categories and other links Start -->
+            <div class="categories-and-searchbar">
+                <div class="categories">
+                    <a href="./main-page.html" class="categories-links">
+                        <div>
+                            New Games
+                        </div>
+                    </a>
+                    <a href="./main-page.html" class="categories-links">
+                        <div>
+                            Categories
+                        </div>
+                    </a>
+                    <a href="./main-page.html" class="categories-links">
+                        <div>
+                            Your Library
+                        </div>
+                    </a>
+                    <div class="search">
+                        <input type="text" placeholder="Search Games" name="search" class="search-bar">
+                        <button type="submit" class="search-submit"><img src="./images/search.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Searchbar, Categories and other links End -->
+
+            <!-- Games Previev Windows -->
+
+            <div class="games-prev">
+                <h1>Game Of The Year</h1>
+                <div class="top-game-grid1">
+                    <div class="top-grid-item1">  
+                        <div class="top-game-img-background" style="background-image: url(./images/super-mario-bros.jpg);"></div>          
+                        <div class="top-grid-item1-text-outer">
+                            <a class="top-game-price">
+                                <h1>30% off |</h1>
+                                <h1>New Price 69$</h1>
+                                <button class="game-store-page" onclick="openBuyPage()">
+                                    Buy Now
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="top-grid-item2">
+                        <div class="rating1">
+                            <h2>We Got This Covered -</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>
+                            Super Mario Bros is the absolute best way to experience 
+                            the engrossing gameplay and emotional story beats -- 
+                            even its occasional banal elements are overshadowed 
+                            by visual and tangible experience.
+                        </h3>
+                    </div>
+                    <div class="top-grid-item2">
+                        <div class="rating1">
+                            <h2>IGN -</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>  
+                        </div>
+                        <h3>
+                            Super Mario Bros is the 
+                            definitive version of one of the best plumber
+                            games ever made.
+                        </h3>
+                    </div>
+                    <div class="top-grid-item2">
+                        <div class="rating1">
+                            <h2>GamingTrends -</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>
+                            Super Mario Bros is the definitive way to play 
+                            the game, whether you've played arcade before or not, 
+                            and it's so good you should play it again.
+                        </h3>
+                    </div>
+                </div>
+
+                <h1>Top Sellers</h1>
+                <div class="media-scroller snaps-inline">
+                    <div class="media-element"><img src="./images/scroller images/donkey-kong.png" alt=""> <h3>Donkey Kong</h3></div>
+                    <div class="media-element"><img src="./images/scroller images/doom.jpg" alt=""> <h3>DOOM</h3></div>
+                    <div class="media-element"><img src="./images/scroller images/final-fantasy.jpg" alt=""> <h3>Final Fantasy</h3></div>
+                    <div class="media-element"><img src="./images/scroller images/metal-gear.webp" alt=""> <h3>Metal Gear</h3></div>
+                    <div class="media-element"><img src="./images/scroller images/mortal-combat.jpg" alt=""> <h3>Mortal Combat</h3></div>
+                    <div class="media-element"><img src="./images/scroller images/sonic.jpg" alt=""> <h3>SONIC</h3></div>
+                </div>
+
+                <h1>Free Games</h1>
+                <div class="free-games-boxes-wrap">
+                    <div class="free-games-boxes">
+                        <div class="free-games-box"><img src="./images/free games images/The_Legend_of_Zelda_Ocarina_of_Time.jpg" alt=""></div>
+                        <div class="free-games-box"><img src="./images/free games images/pokemon.jpeg" alt=""></div>
+                        <div class="free-games-box"><img src="./images/free games images/unreal-tournament.jpg" alt=""></div>
+                    </div>
+                    <div class="free-games-boxes">
+                        <div class="free-games-box"><img src="./images/free games images/half-life.jpg" alt=""></div>
+                        <div class="free-games-box"><img src="./images/free games images/street-fighter.jpg" alt=""></div>
+                    </div>
+                    <div class="free-games-boxes">
+                        <div class="free-games-box"><img src="./images/free games images/age-of-empires.jpg" alt=""></div>
+                        <div class="free-games-box"><img src="./images/free games images/GoldenEye007box.jpg" alt=""></div>
+                        <div class="free-games-box"><img src="./images/free games images/Resident_Evil_1_cover.jpeg" alt=""></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Main Page Content End -->
+
+    <footer>
+        <div class="footer-inner">
+            <div class="media-links">
+                <div class="icon-wrapper">
+                    <div class="icon facebook">
+                        <div class="tooltip">Facebook</div>
+                        <span><i class="fa-brands fa-square-facebook"></i></span>
+                    </div>
+                    <div class="icon youtube">
+                        <div class="tooltip">Youtube</div>
+                        <span><i class="fa-brands fa-square-youtube"></i></span>
+                    </div>
+                    <div class="icon twitter">
+                        <div class="tooltip">Twitter</div>
+                        <span><i class="fa-brands fa-square-twitter"></i></span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="company-links">
+                <div class="company-links-upper-text">
+                    <h3>Resources</h3>
+                </div>
+                <div class="company-links-lower-texts">
+                    <div class="company-links-lower-text">
+                        <a href="">Support a Developer</a>
+                        <a href="">Distribute on Our Store</a>
+                        <a href="">Careers</a>
+                        <a href="">Company</a>
+                    </div>
+                    <div class="company-links-lower-text">
+                        <a href="">Art Policy</a>
+                        <a href="">News room</a>
+                        <a href="">Online Services</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="footer-inner-line">
+    
+            <div class="all-rights-reserved">
+                <h4>
+                    © 2023, Lion Game Store, Inc. All rights reserved. <br><br>
+                    Lion Game Store, the Lion Game Store logo, 
+                    are trademarks or registered trademarks of Lion Game Store, Inc. 
+                    in Georgia and elsewhere. 
+                    Other brands or product names are the trademarks 
+                    of their respective owners. Non-Georgia transactions 
+                    through Lion Game Store International, S.à r.l.
+                </h4>
+            </div>
+    
+            <div class="additional-links">
+    
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="./project-js.js"></script>
+</html>
